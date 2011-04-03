@@ -1,0 +1,297 @@
+/* <![CDATA[ */
+
+/*
+##################################################
+#                                                #
+#                 noxeos © 2010                 #
+#                                                #
+##################################################
+*/
+
+BODY {
+    margin:                 0px;
+    color:                  #808080;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              12px;
+    line-height:            150%;
+    text-decoration:        none;
+    font-family:            "Myriad Pro", Myriad, Helvetica Arial, sans-serif;
+    background-color:       #000000;
+    background-image:       url( 'pictures/pattern.gif' );
+}
+
+H1 {
+    color:                  #CCCCCC;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              30px;
+    line-height:            normal;
+    margin-top:             10px;
+    margin-bottom:          10px;
+    padding-top:            0px;
+    padding-bottom:         0px;
+    text-align:             left;
+}
+
+H2 {
+    color:                  #CCCCCC;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              25px;
+    line-height:            normal;
+    margin-top:             10px;
+    margin-bottom:          10px;
+    padding-top:            0px;
+    padding-bottom:         0px;
+    text-align:             left;
+}
+
+H3 {
+    color:                  #CCCCCC;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              20px;
+    line-height:            normal;
+    margin-top:             10px;
+    margin-bottom:          10px;
+    padding-top:            0px;
+    padding-bottom:         0px;
+    text-align:             left;
+}
+
+H4 {
+    color:                  #CCCCCC;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              18px;
+    line-height:            normal;
+    margin-top:             10px;
+    margin-bottom:          10px;
+    padding-top:            0px;
+    padding-bottom:         0px;
+    text-align:             left;
+}
+
+H5 {
+    color:                  #CCCCCC;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              16px;
+    line-height:            normal;
+    margin-top:             10px;
+    margin-bottom:          10px;
+    padding-top:            0px;
+    padding-bottom:         0px;
+    text-align:             left;
+}
+
+H6 {
+    color:                  #CCCCCC;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              14px;
+    line-height:            normal;
+    margin-top:             10px;
+    margin-bottom:          10px;
+    padding-top:            0px;
+    padding-bottom:         0px;
+    text-align:             left;
+}
+
+A {
+    text-decoration:        none;
+}
+
+A:link {
+    color:                  #4D4D4D;
+    font-weight:            normal;
+    text-decoration:        none;
+}
+
+A:visited {
+    color:                  #4D4D4D;
+    font-weight:            normal;
+    text-decoration:        none;
+}
+
+A:hover {
+    color:                  #FFFFFF;
+    font-weight:            normal;
+    text-decoration:        none;
+}
+
+A:active {
+    color:                  #FFFFFF;
+    font-weight:            normal;
+    text-decoration:        none;
+}
+
+IMG {
+    border:                 none;
+}
+
+BLOCKQUOTE {
+    margin:                 20px;
+    border-left:            solid 5px #808080;
+    padding-left:           20px;
+    color:                  #4D4D4D;
+    font-style:             italic;
+}
+
+INPUT {
+    background-color:       #FFFFFF;
+    border:                 none;
+    padding:                5px;
+    font-size:              10px;
+    color:                  #4D4D4D;
+    background-color:       #BFBFBF;
+    -moz-border-radius:     10px;
+    -webkit-border-radius:  10px;
+    border-radius:          10px;
+}
+
+TEXTAREA {
+    background-color:       #FFFFFF;
+    border:                 none;
+    padding:                5px;
+    font-size:              10px;
+    color:                  #4D4D4D;
+    background-color:       #BFBFBF;
+    -moz-border-radius:     10px;
+    -webkit-border-radius:  10px;
+    border-radius:          10px;
+}
+
+TABLE {
+    border:                 solid 1px #E8E8E8;
+    border-collapse:        collapse;
+    width:                  100%;
+    margin-top:             14px;
+    margin-bottom:          14px;
+}
+
+TH {
+    border:                 solid 1px #E8E8E8;
+    padding:                5px;
+    background-color:       #F1F8FF;
+    color:                  inherit;
+    text-align:             center;
+}
+
+TD {
+    border:                 solid 1px #E8E8E8;
+    padding:                5px;
+    text-align:             center;
+}
+
+TD.alt {
+    background-color:       #F8F8F8;
+}
+
+UL.space LI, OL.space LI {
+    padding-top:            10px;
+    padding-bottom:         10px;
+}
+
+.img-right IMG {
+    float:                  right;
+    margin-left:            35px;
+}
+
+.img-left IMG {
+    float:                  left;
+    margin-right:           35px;
+}
+
+.center {
+    text-align:             center;
+}
+
+.power {
+    vertical-align:         super;
+}
+
+.uppercase {
+    text-transform:         uppercase;
+}
+
+.small {
+    font-size:              12px;
+}
+
+.italic {
+    font-style:             italic;
+}
+
+.big {
+    font-size:              20px;
+}
+
+.clearer {
+    clear:                  both;
+}
+
+DIV.code {
+    border-left:            solid 1px #808080;
+    border-top:             solid 1px #808080;
+    border-right:           solid 1px #808080;
+    border-bottom:          solid 1px #808080;
+    background-color:       #E8E8E8;
+    color:                  #333333;
+    background-repeat:      repeat-y;
+    padding-left:           30px;
+    padding-top:            10px;
+    padding-right:          10px;
+    padding-bottom:         10px;
+    font-size:              12px;
+    line-height:            12px;
+    margin-bottom:          10px;
+    overflow:               auto;
+}
+
+DIV.code CODE {
+    white-space:            pre;
+}
+
+.code-comment {
+    color:                  #7F7F7F;
+    background-color:       inherit;
+}
+
+.code-keyword {
+    color:                  #007FFF;
+    background-color:       inherit;
+}
+
+.code-predefined {
+    color:                  #00327F;
+    background-color:       inherit;
+}
+
+.code-string {
+    color:                  #FF7F7F;
+    background-color:       inherit;
+}
+
+.code-ctag {
+    color:                  #7F007F;
+    background-color:       inherit;
+}
+
+IMG.alignright {
+    float:                  right;
+    margin-left:            10px;
+    margin-top:             10px;
+    margin-bottom:          10px;
+}
+
+IMG.alignleft {
+    float:                  left;
+    margin-right:           10px;
+    margin-top:             10px;
+    margin-bottom:          10px;
+}
+
+/* ]]> */
+
