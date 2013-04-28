@@ -14,7 +14,7 @@
             </div>
         </div>
         <div id="tmpl-copyright">
-            eosgarden &copy; 2011 - <a href="http://www.eosgarden.co/">www.eosgarden.com</a>
+            XS-Labs &copy; 2011 - <a href="http://www.xs-labs.com/">www.xs-labs.com</a>
         </div>
     </div>
 <?php wp_footer(); ?>

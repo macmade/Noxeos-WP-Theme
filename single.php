@@ -52,9 +52,8 @@ add_action( 'post_thumbnail_html', 'noxeos_thumbnail_caption', null, 5 );
 			?>
 		</div>
 		<div class="tmpl-post-copyleft">
-			<strong>Copyright (C) Jean-David Gadina.</strong><br /><br />
-			Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.<br /><br />
-			A copy of the license is included in the section entitled <a href="http://www.eosgarden.com/en/opensource/licenses/gnu-fdl/">GNU Free Documentation License</a>.
+			<strong>Copyright (C) Jean-David Gadina.</strong><br />
+            This article is published under the terms of the <a href="http://www.xs-labs.com/en/licenses/freebsd-documentation/">FreeBSD Documentation License</a></a>.
 		</div>
 	</div>
 </div>

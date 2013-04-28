@@ -59,25 +59,19 @@ print '<?xml version="1.0" encoding="utf-8"?>' . chr( 10 );
         <div id="tmpl-eos-menu">
             <ul>
                 <li>
-                    <a href="http://www.eosgarden.com/en/freeware/">Freeware</a>
+                    <a href="http://www.xs-labs.com/en/projects/">Projects</a>
                 </li>
                 <li>
-                    <a href="http://www.eosgarden.com/en/opensource/">OpenSource</a>
+                    <a href="http://www.xs-labs.com/en/about/">About</a>
                 </li>
                 <li>
-                    <a href="http://www.eosgarden.com/en/services/">Services</a>
+                    <a href="http://www.xs-labs.com/en/contact/">Contact</a>
                 </li>
                 <li>
-                    <a href="http://www.eosgarden.com/en/articles/">Articles</a>
+                    <a href="http://www.xs-labs.com/en/archives/">Archives</a>
                 </li>
                 <li>
-                    <a href="http://www.eosgarden.com/en/support/">Support</a>
-                </li>
-                <li>
-                    <a href="http://www.eosgarden.com/en/contact/">Contact</a>
-                </li>
-                <li class="act">
-                    <a href="http://www.eosgarden.com/en/blog/">Blog</a>
+                    <a href="http://www.xs-labs.com/en/blog/">Blog</a>
                 </li>
             </ul>
         </div>
