@@ -77,6 +77,8 @@ add_filter( 'excerpt_length', 'noxeos_excerpt_length' );
 
 <?php $i++; endwhile; ?>
 
+</div>
+
 <?php
 
 if( $wp_query->max_num_pages > 1 ) : ?>
