@@ -54,7 +54,7 @@ add_filter( 'excerpt_length', 'noxeos_excerpt_length' );
 <div class="marketing">
 <?php $i = 0; while( have_posts() ) : the_post(); ?>
 
-    <?php if( $i % 2 == 0 ) : ?>
+    <?php if( $i % 3 == 0 ) : ?>
     <div class="row">
     <?php endif; ?>
     
@@ -71,7 +71,7 @@ add_filter( 'excerpt_length', 'noxeos_excerpt_length' );
         </p>
     </div>
 
-    <?php if( $i % 2 != 0 ) : ?>
+    <?php if( $i % 3 != 0 ) : ?>
     </div>
     <?php endif; ?>
 
