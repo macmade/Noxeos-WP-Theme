@@ -1,4 +1,4 @@
-<ul class="tmpl-sidebar">
+<ul>
 
 <?php
 
