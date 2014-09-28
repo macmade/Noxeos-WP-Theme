@@ -30,13 +30,11 @@ add_action( 'post_thumbnail_html', 'noxeos_thumbnail_caption', null, 5 );
         </div>
     </div>
     <div class="col-md-4">
-        <div>
+        <div class="text-center">
             <?php
-    
-                $image = get_the_post_thumbnail( $post->ID, 'large' );
-                preg_match( '/src="(.*)" class/', $image, $matches );
-                get_the_post_thumbnail();
-    
+                
+                print get_the_post_thumbnail( the_ID(), array( 140, 140 ), array( 'class' => 'img-circle' ) );
+                
             ?>
         </div>
         <div class="panel panel-default">
