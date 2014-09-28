@@ -45,4 +45,8 @@ li.widget_archive li {
     width:                      100px;
 }
 
+.panel-body dl.dl-horizontal dd {
+    margin-left:                130px;
+}
+
 /* ]]> */
