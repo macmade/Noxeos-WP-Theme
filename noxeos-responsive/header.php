@@ -87,7 +87,7 @@ if( isset( $_SERVER[ 'HTTP_USER_AGENT' ] ) && ( strpos( $_SERVER[ 'HTTP_USER_AGE
                             <a href="http://www.xs-labs.com/en/archives/">Archives</a>
                         </li>
                         <li class="active">
-                            <a href="http://www.noxeos.com/">Blog</a>
+                            <a href="/">Blog</a>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
