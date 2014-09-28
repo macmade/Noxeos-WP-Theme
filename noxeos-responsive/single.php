@@ -53,7 +53,7 @@ add_action( 'post_thumbnail_html', 'noxeos_thumbnail_caption', null, 5 );
                 </dl>
             </div>
         </div>
-        <div class="text-right">
+        <div>
             <small>
                 <strong>Copyright &copy; Jean-David Gadina</strong><br />
                 This article is published under the terms of the <a href="http://www.xs-labs.com/en/licenses/freebsd-documentation/">FreeBSD Documentation License</a>.
