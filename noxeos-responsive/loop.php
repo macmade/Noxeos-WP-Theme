@@ -68,7 +68,7 @@ add_filter( 'excerpt_length', 'noxeos_excerpt_length' );
             </div>
             <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
             <p>
-                 <a href="<?php the_permalink(); ?>"><?php print strip_tags( noxeos_get_the_excerpt(), '<p>' ); ?></a>
+                 <?php print strip_tags( noxeos_get_the_excerpt(), '<p>' ); ?>
             </p>
             <p>
                 <a class="btn btn-default" href="<?php the_permalink(); ?>">Read the article »</a>
