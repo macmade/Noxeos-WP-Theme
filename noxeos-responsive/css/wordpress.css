@@ -1,0 +1,343 @@
+/* <![CDATA[ */
+
+/*
+##################################################
+#                                                #
+#       Blood Sweat & Code (& Rock'N'Roll)       #
+#      Thanx for looking at the source code      #
+#                                                #
+#                 XS-Labs © 2013                 #
+#                                                #
+##################################################
+*/
+
+.tmpl-story-group {
+    overflow:               hidden;
+    height:                 100%;
+}
+
+.tmpl-story-left {
+    float:                  left;
+}
+
+.tmpl-story-right {
+    float:                  right;
+}
+
+.tmpl-story-left,
+.tmpl-story-right {
+    width:                  49%;
+    border:                 solid 1px #DBDDE1;
+    background-color:       #FFFFFF;
+    border-radius:          10px;
+    margin-bottom:          15px;
+    padding:                1px;
+}
+
+.tmpl-story-group H2 {
+    background-color:           #E8E9EC;
+    border-top-left-radius:     10px;
+    border-top-right-radius:    10px;
+    border-bottom-left-radius:  0px;
+    border-bottom-right-radius: 0px;
+    font-size:                  20px;
+    background-image:           url( 'image/project-icons/pen.png' );
+    background-position:        5px center;
+    background-repeat:          no-repeat;
+    padding-left:               45px;
+}
+
+.tmpl-story-group H2 A,
+.tmpl-story-group H2 A:link,
+.tmpl-story-group H2 A:visited {
+    color:                  #5C6370;
+}
+
+.tmpl-story-image {
+    float:                  right;
+    margin:                 10px;
+    height:                 150px;
+}
+
+.tmpl-story-content {
+    padding-left:           10px;
+    padding-right:          10px;
+    text-align:             left;
+}
+
+.tmpl-story-content A,
+.tmpl-story-content A:link,
+.tmpl-story-content A:visited,
+.tmpl-story-content A:hover,
+.tmpl-story-content A:active {
+    color:                  #5C6370;
+    text-decoration:        none;
+}
+
+.tmpl-story-footer {
+    overflow:               hidden;
+    height:                 100%;
+    margin:                 10px;
+    padding-top:            10px;
+    font-size:              10px;
+    border-top:             solid 1px #DBDDE1;
+    clear:                  both;
+}
+
+.tmpl-story-date {
+    float:                  left;
+    margin-right:           5px;
+    padding-right:          5px;
+    border-right:           solid 1px #DBDDE1;
+}
+
+.tmpl-story-comments {
+    float:                  left;
+    margin-right:           5px;
+    padding-right:          5px;
+    border-right:           solid 1px #DBDDE1;
+}
+
+.tmpl-story-category {
+    float:                  left;
+}
+
+.tmpl-story-more {
+    float:                  right;
+}
+
+.tmpl-story-nav {
+    clear:                  both;
+    overflow:               hidden;
+    height:                 100%;
+    margin-bottom:          20px;
+}
+
+.tmpl-story-nav-previous {
+    float:                  left;
+}
+
+.tmpl-story-nav-next {
+    float:                  right;
+}
+
+#tmpl-bottom {
+    background-color:           #E8E9EC;
+    border-radius:              10px;
+    padding-left:               45px;
+    padding:                    20px;
+    overflow:                   hidden;
+    height:                     100%;
+}
+
+#tmpl-bottom .tmpl-bottom-col-1,
+#tmpl-bottom .tmpl-bottom-col-2,
+#tmpl-bottom .tmpl-bottom-col-3,
+#tmpl-bottom .tmpl-bottom-col-4 {
+    float:                  left;
+    width:                  300px;
+}
+
+#tmpl-bottom .tmpl-bottom-col-1,
+#tmpl-bottom .tmpl-bottom-col-2,
+#tmpl-bottom .tmpl-bottom-col-3 {
+    margin-right:           20px;
+}
+
+#tmpl-bottom H2 {
+    font-size:              20px;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    border-bottom:          solid 1px #DBDDE1;
+}
+
+#tmpl-bottom A,
+#tmpl-bottom A:link,
+#tmpl-bottom A:visited {
+    color:                  #5C6370;
+}
+
+#tmpl-bottom UL,
+#tmpl-bottom OL {
+    margin:                 0px;
+    padding:                0px;
+    list-style:             none;
+}
+
+#tmpl-bottom UL.tmpl-sidebar LI LI {
+    margin:                 0px;
+    padding-left:           0px;
+    padding-top:            5px;
+    padding-right:          0px;
+    padding-bottom:         5px;
+    border-bottom:          solid 1px #DBDDE1;
+}
+
+.tmpl-post {
+    overflow:               hidden;
+    height:                 100%;
+}
+
+.tmpl-post-content {
+    float:                  left;
+    width:                  750px;
+}
+
+.tmpl-post-infos {
+    float:                  right;
+    width:                  200px;
+    padding-top:            20px;
+    margin-right:           20px;
+    font-size:              12px;
+}
+
+.tmpl-post-content H2 {
+    border-bottom:          solid 1px #DBDDE1;
+}
+
+.tmpl-post-text {
+    text-align:             justify;
+    margin-top:             15px;
+}
+
+.tmpl-post-copyleft {
+    margin-top:             20px;
+    padding-top:            20px;
+    border-top:             solid 1px #DBDDE1;
+}
+
+.tmpl-post-comments {
+    clear:                  both;
+}
+
+.tmpl-post-infos .tmpl-post-author,
+.tmpl-post-infos .tmpl-post-date,
+.tmpl-post-infos .tmpl-post-category,
+.tmpl-post-infos .tmpl-post-comments {
+    padding-bottom:         5px;
+    margin-bottom:          5px;
+    border-bottom:          solid 1px #DBDDE1;
+}
+
+.tmpl-post-infos .tmpl-post-author {
+    padding-top:            5px;
+    border-top:             solid 1px #DBDDE1;
+}
+
+.tmpl-post-content .tmpl-post-comments {
+    margin-top:             25px;
+}
+
+.tmpl-post-image {
+    margin-top:             25px;
+}
+
+.tmpl-post-image-caption {
+    font-style:             italic;
+    margin-top:             10px;
+    text-align:             right;
+}
+
+.tmpl-post-content .tmpl-post-comments H3 {
+    font-size:              15px;
+    border-top:             solid 1px #DBDDE1;
+    padding-top:            20px;
+    margin-bottom:          5px;
+}
+.tmpl-comments-list {
+    margin-bottom:          20px;
+}
+
+.tmpl-comment {
+    overflow:               hidden;
+    height:                 100%;
+    border-top:             solid 1px #DBDDE1;
+    padding-top:            10px;
+    padding-bottom:         10px;
+}
+
+.tmpl-comments-list .tmpl-comment-infos {
+    float:                  left;
+    width:                  150px;
+    font-size:              12px;
+}
+
+.tmpl-comments-list .tmpl-comment-text {
+    float:                      right;
+    width:                      490px;
+    text-align:                 justify;
+    background-color:           #E8E9EC;
+    border-radius:              10px;
+    padding:                    20px;
+    font-style:                 italic;
+}
+
+.tmpl-post-content .tmpl-post-comments H3#reply-title {
+    border:                 none;
+}
+
+.logged-in-as,
+.comment-form-notes {
+    margin-bottom:          20px;
+    font-size:              12px;
+}
+
+.tmpl-post-content .tmpl-post-comments .must-log-in {
+    margin-bottom:          20px;
+}
+
+.tmpl-post-content .tmpl-post-comments .logged-in-as {
+    margin-bottom:          20px;
+}
+
+.tmpl-post-comments #respond {
+    border-top:             solid 1px #DBDDE1;
+}
+
+.comment-form-element {
+    overflow:               hidden;
+    height:                 100%;
+    margin-bottom:          10px;
+}
+
+.comment-form-label {
+    float:                  left;
+}
+
+.comment-form-field {
+    float:                  right;
+    width:                  560px;
+}
+
+.comment-form-field INPUT,
+.comment-form-field TEXTAREA {
+    background-color:           #E8E9EC;
+    border-radius:              10px;
+    padding:                    10px;
+    font-style:                 italic;
+    border:                     none;
+}
+
+.tmpl-post-content .tmpl-post-comments P.form-submit {
+    margin-left:            190px;
+}
+
+.tmpl-post-content .tmpl-post-comments P.form-submit INPUT {
+    background-color:           #E8E9EC;
+    border-radius:              10px;
+    padding:                    10px;
+    border:                     none;
+    font-weight:                bold;
+}
+
+.widget_archive UL {
+    overflow:                   hidden;
+    height:                     100%;
+}
+
+.widget_archive LI {
+    float:                      left;
+    width:                      150px;
+}
+
+/* ]]> */

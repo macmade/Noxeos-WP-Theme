@@ -1,0 +1,229 @@
+/* <![CDATA[ */
+
+/*
+##################################################
+#                                                #
+#       Blood Sweat & Code (& Rock'N'Roll)       #
+#      Thanx for looking at the source code      #
+#                                                #
+#                 XS-Labs © 2013                 #
+#                                                #
+##################################################
+*/
+
+DIV#xs-site {
+    width:                  1100px;
+    min-height:             100%;
+    margin-left:            auto;
+    margin-right:           auto;
+    background-repeat:      repeat;
+}
+
+DIV#xs-page {
+    width:                  1060px;
+    padding-left:           20px;
+    padding-right:          20px;
+    background-image:       url( "image/xs-page-background.png" );
+}
+
+DIV#xs-menu-bar {
+    height:                 80px;
+    padding-left:           30px;
+    padding-right:          30px;
+    overflow:               hidden;
+}
+
+DIV#xs-menu-bar UL {
+    overflow:               hidden;
+    height:                 80px;
+    list-style:             none;
+    margin:                 0px;
+    padding:                0px;
+    padding-left:           10px;
+    background-image:       url( "image/xs-menu-bar.png" );
+    background-repeat:      no-repeat;
+}
+
+DIV#xs-menu-bar UL LI {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    width:                  140px;
+    height:                 80px;
+}
+
+DIV#xs-menu-bar UL LI DIV {
+    display:                block;
+    width:                  140px;
+    height:                 80px;
+    text-align:             center;
+}
+
+DIV#xs-menu-bar UL LI A {
+    font-size:              20px;
+    color:                  #B8BCC4;
+    text-decoration:        none;
+    height:                 100%;
+    text-shadow:            1px 1px 1px #FFFFFF;
+}
+
+DIV#xs-menu-bar UL LI .xs-menu-item {
+    background-image:       url( "image/xs-menu-bar-item.png" );
+}
+
+DIV#xs-menu-bar UL LI .xs-menu-item-first {
+    background-image:       url( "image/xs-menu-bar-item-first.png" );
+}
+
+DIV#xs-menu-bar UL LI.xs-menu-act .xs-menu-item {
+    background-image:       url( "image/xs-menu-bar-item-act.png" );
+}
+
+DIV#xs-menu-bar UL LI.xs-menu-act A {
+    color:                  #8F96A3;
+    font-weight:            bold;
+}
+
+DIV#xs-menu-bar UL LI A:hover {
+    color:                  #8F96A3;
+}
+
+DIV#xs-menu-bar UL LI .xs-menu-item-first {
+    padding-top:            17px;
+}
+
+DIV#xs-menu-bar UL LI .xs-menu-item {
+    padding-top:            28px;
+}
+
+DIV#xs-menu-bar UL LI.xs-menu-act .xs-menu-item {
+    padding-top:            32px;
+}
+
+DIV#xs-menu-bar UL LI .xs-menu-item-last {
+    padding-left:           5px;
+    padding-top:            22px;
+}
+
+DIV#xs-highlight {
+    height:                 200px;
+    padding-left:           30px;
+    padding-right:          30px;
+    overflow:               hidden;
+}
+
+DIV#xs-sub-nav {
+    height:                 40px;
+    overflow:               hidden;
+    padding-top:            10px;
+    padding-left:           30px;
+    padding-right:          30px;
+}
+
+DIV#xs-sub-nav .left {
+    width:                  500px;
+}
+
+DIV#xs-sub-nav H1,
+DIV#xs-sub-nav H2,
+DIV#xs-sub-nav H1 A,
+DIV#xs-sub-nav H2 A {
+    padding:                0px;
+    margin:                 0px;
+    color:                  #C3C6CD;
+    font-size:              30px;
+}
+
+DIV#xs-sub-nav UL {
+    overflow:               hidden;
+    height:                 100%;
+    list-style:             none;
+    margin:                 0px;
+    padding:                0px;
+    padding-top:            10px;
+}
+
+DIV#xs-sub-nav UL LI {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    margin-left:            20px;
+    font-size:              20px;
+}
+
+DIV#xs-sub-nav UL LI A {
+    color:                  #C3C6CD;
+}
+
+DIV#xs-sub-nav UL LI.xs-menu-act A {
+    font-weight:            bold;
+    color:                  #5C6370;
+}
+
+DIV.xs-content-frame-top {
+    height:                 10px;
+    padding-left:           30px;
+    padding-right:          30px;
+    background-image:       url( "image/xs-content-frame-top.png" );
+    background-repeat:      no-repeat;
+    background-color:       #F7F7F8;
+}
+
+DIV.xs-content-frame-middle {
+    padding-left:           50px;
+    padding-right:          50px;
+    background-color:       #EEEEEE;
+    background-image:       url( "image/xs-content-frame-middle.png" );
+    background-repeat:      repeat-y;
+    background-color:       #F7F7F8;
+    padding-left:           30px;
+    padding-right:          30px;
+    padding-bottom:         30px;
+    height:                 100%;
+}
+
+DIV.xs-content-frame-bottom {
+    height:                 10px;
+    padding-left:           30px;
+    padding-right:          30px;
+    background-image:       url( "image/xs-content-frame-bottom.png" );
+    background-repeat:      no-repeat;
+    background-color:       #F7F7F8;
+}
+
+DIV#xs-footer {
+    margin-bottom:          20px;
+    height:                 60px;
+    padding-left:           50px;
+    padding-right:          50px;
+    overflow:               hidden;
+    font-size:              12px;
+    padding-top:            10px;
+    background-image:       url( "image/xs-page-bottom.png" );
+    background-repeat:      no-repeat;
+}
+
+DIV#xs-footer .left {
+    width:                  500px;
+}
+
+DIV#xs-footer UL {
+    overflow:               hidden;
+    height:                 100%;
+    list-style:             none;
+    margin:                 0px;
+    padding:                0px;
+}
+
+DIV#xs-footer UL LI {
+    float:                  left;
+    margin:                 0px;
+    padding:                0px;
+    margin-left:            20px;
+}
+
+DIV#xs-footer A {
+    color:                  #5C6370;
+}
+
+/* ]]> */

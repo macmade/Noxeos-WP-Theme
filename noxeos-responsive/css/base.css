@@ -1,0 +1,201 @@
+/* <![CDATA[ */
+
+/*
+##################################################
+#                                                #
+#       Blood Sweat & Code (& Rock'N'Roll)       #
+#      Thanx for looking at the source code      #
+#                                                #
+#                 XS-Labs © 2013                 #
+#                                                #
+##################################################
+*/
+
+BODY {
+    margin:                 0px;
+    color:                  #5C6370;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              14px;
+    line-height:            20px;
+    text-decoration:        none;
+    font-family:            "Myriad Pro", Myriad, Arial, Helvetica, Verdana, Geneva, Swiss, SunSans-Regular, sans-serif;
+    background-color:       #E7EAEF;
+}
+
+H1 {
+    color:                  #5C6370;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              30px;
+    line-height:            normal;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    padding-top:            10px;
+    padding-bottom:         10px;
+    text-align:             left;
+}
+
+H2 {
+    color:                  #5C6370;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              25px;
+    line-height:            normal;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    padding-top:            10px;
+    padding-bottom:         10px;
+    text-align:             left;
+}
+
+H3 {
+    color:                  #5C6370;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              20px;
+    line-height:            normal;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    padding-top:            10px;
+    padding-bottom:         10px;
+    text-align:             left;
+}
+
+H4 {
+    color:                  #5C6370;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              18px;
+    line-height:            normal;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    padding-top:            10px;
+    padding-bottom:         10px;
+    text-align:             left;
+}
+
+H5 {
+    color:                  #5C6370;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              15px;
+    line-height:            normal;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    padding-top:            10px;
+    padding-bottom:         10px;
+    text-align:             left;
+}
+
+H6 {
+    color:                  #5C6370;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              15px;
+    line-height:            normal;
+    margin-top:             0px;
+    margin-bottom:          0px;
+    padding-top:            10px;
+    padding-bottom:         10px;
+    text-align:             left;
+}
+
+P {
+    margin:                 0px;
+    padding:                0px;
+    padding-top:            15px;
+    padding-bottom:         15px;
+}
+
+A {
+    text-decoration:        none;
+}
+
+A:link {
+    color:                  #006EA6;
+    font-weight:            normal;
+    text-decoration:        none;
+}
+
+A:visited {
+    color:                  #006EA6;
+    font-weight:            normal;
+    text-decoration:        none;
+}
+
+A:hover {
+    color:                  #00A8FF;
+    font-weight:            normal;
+    text-decoration:        underline;
+}
+
+A:active {
+    color:                  #00A8FF;
+    font-weight:            normal;
+    text-decoration:        underline;
+}
+
+IMG {
+    border:                 none;
+}
+
+BLOCKQUOTE {
+    background-color:           #E8E9EC;
+    border-radius:              10px;
+    padding:                    20px;
+    font-style:                 italic;
+}
+
+INPUT {
+    background-color:       #FFFFFF;
+    border:                 solid 1px #5C6370;
+    padding:                5px;
+}
+
+TEXTAREA {
+    background-color:       #FFFFFF;
+    border:                 solid 1px #5C6370;
+    padding:                5px;
+}
+
+HR {
+    height:                 1px;
+    border:                 none;
+    border-top:             solid 1px #DBDDE1;
+}
+
+P {
+    padding:                0px;
+    margin:                 0px;
+    padding-top:            10px;
+    padding-bottom:         10px;
+}
+
+TABLE {
+    border:                 solid 1px #DBDDE1;
+    border-collapse:        collapse;
+    width:                  100%;
+    margin-top:             14px;
+    margin-bottom:          14px;
+}
+
+TH {
+    border:                 solid 1px #DBDDE1;
+    padding:                5px;
+    background-color:       #E8E9EC;
+    color:                  inherit;
+    text-align:             center;
+}
+
+TD {
+    border:                 solid 1px #DBDDE1;
+    padding:                5px;
+    text-align:             center;
+}
+
+TD.alt {
+    background-color:       #E8E9EC;
+}
+
+/* ]]> */
