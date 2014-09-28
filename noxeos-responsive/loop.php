@@ -66,7 +66,7 @@ add_filter( 'excerpt_length', 'noxeos_excerpt_length' );
             <div>
                 <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( array( 140, 140 ), array( 'class' => 'img-circle' ) ); ?></a>
             </div>
-            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
             <p>
                  <a href="<?php the_permalink(); ?>"><?php print strip_tags( noxeos_get_the_excerpt(), '<p>' ); ?></a>
             </p>
