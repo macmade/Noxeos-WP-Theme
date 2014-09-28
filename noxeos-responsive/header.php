@@ -68,7 +68,7 @@ if( isset( $_SERVER[ 'HTTP_USER_AGENT' ] ) && ( strpos( $_SERVER[ 'HTTP_USER_AGE
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/">
+                    <a class="navbar-brand" href="http://www.xs-labs.com/">
                         <img src="/wp-content/themes/noxeos-responsive/css/image/xs-logo.png" width="120" height="40" alt="XS-Labs" />
                     </a>
                 </div>
