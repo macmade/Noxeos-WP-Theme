@@ -11,12 +11,12 @@ print '<?xml version="1.0" encoding="utf-8"?>' . chr( 10 );
     <title><?php print WordPressTools::getInstance()->getPageTitle(); ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-    <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/noxeos/css/jquery.fancybox-1.3.1.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/noxeos-dark/css/jquery.fancybox-1.3.1.css" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-    <script src="/wp-content/themes/noxeos/js/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/wp-content/themes/noxeos/js/jquery.easing-1.3.pack.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/wp-content/themes/noxeos/js/jquery.mousewheel-3.0.2.pack.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/wp-content/themes/noxeos/js/jquery.fancybox-1.3.1.pack.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/wp-content/themes/noxeos-dark/js/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/wp-content/themes/noxeos-dark/js/jquery.easing-1.3.pack.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/wp-content/themes/noxeos-dark/js/jquery.mousewheel-3.0.2.pack.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/wp-content/themes/noxeos-dark/js/jquery.fancybox-1.3.1.pack.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript" charset="utf-8">
         // <![CDATA[    
         $( document ).ready
