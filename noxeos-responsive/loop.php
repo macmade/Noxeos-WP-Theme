@@ -51,7 +51,7 @@ add_filter( 'excerpt_length', 'noxeos_excerpt_length' );
 
 <?php else: ?>
 
-<div class="xs-stories">
+<div class="marketing">
 <?php $i = 0; while( have_posts() ) : the_post(); ?>
 
     <?php if( $i % 2 == 0 ) : ?>
@@ -59,35 +59,16 @@ add_filter( 'excerpt_length', 'noxeos_excerpt_length' );
     <?php endif; ?>
     
     <div class="col-sm-6" id="post-<?php the_ID(); ?>">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-            </div>
-            <div class="panel-body">
-                <div class="pull-right">
-                    <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
-                </div>
-                <p>
-                 <a href="<?php the_permalink(); ?>"><?php print strip_tags( noxeos_get_the_excerpt(), '<p>' ); ?></a>
-                </p>
-                <p>
-                    <a class="btn btn-default" href="<?php the_permalink(); ?>">Read the article »</a>
-                </p>
-            </div>
-            <div class="panel-footer">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <?php the_time( get_option( 'date_format' ) ); ?>
-                    </div>
-                    <div class="col-sm-4">
-                        Comments: <?php comments_number( '0', '1', '%' ); ?>
-                    </div>
-                    <div class="col-sm-4">
-                        Category: <?php the_category( ', ' ); ?>
-                    </div>
-                </div>
-            </div>
+        <div>
+            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
         </div>
+        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+        <p>
+            <a href="<?php the_permalink(); ?>"><?php print strip_tags( noxeos_get_the_excerpt(), '<p>' ); ?></a>
+        </p>
+        <p>
+            <a class="btn btn-default" href="<?php the_permalink(); ?>">Read the article »</a>
+        </p>
     </div>
 
     <?php if( $i % 2 != 0 ) : ?>
