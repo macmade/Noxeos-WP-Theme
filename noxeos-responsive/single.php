@@ -29,11 +29,11 @@ add_action( 'post_thumbnail_html', 'noxeos_thumbnail_caption', null, 5 );
             <?php comments_template( '', true ); ?>
         </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 xs-post-details">
         <div class="text-center">
             <?php
                 
-                print get_the_post_thumbnail( the_ID(), array( 140, 140 ), array( 'class' => 'img-circle' ) );
+                print get_the_post_thumbnail( 0, array( 140, 140 ), array( 'class' => 'img-circle' ) );
                 
             ?>
         </div>

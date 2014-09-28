@@ -41,15 +41,19 @@ li.widget_archive li {
     width:                      150px;
 }
 
-.panel-body dl {
+.xs-post-details img {
+    margin-bottom:              20px;
+}
+
+.xs-post-details .panel-body dl {
     font-size:                  12px;
 }
 
-.panel-body dl.dl-horizontal dt {
+.xs-post-details .panel-body dl.dl-horizontal dt {
     width:                      100px;
 }
 
-.panel-body dl.dl-horizontal dd {
+.xs-post-details .panel-body dl.dl-horizontal dd {
     margin-left:                130px;
 }
 
