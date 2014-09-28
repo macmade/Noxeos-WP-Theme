@@ -9,7 +9,7 @@ if( have_posts() )
 
 ?>
 
-<h2 class="tmpl-page-title"><?php printf( 'Author: %s', get_the_author() ); ?></h2>
+<h2 class="text-center"><?php printf( 'Author: %s', get_the_author() ); ?></h2>
 
 <?php
 

@@ -9,7 +9,7 @@ if( have_posts() )
 
 ?>
 
-<h2 class="tmpl-page-title">
+<h2 class="text-center">
 
 <?php
 
