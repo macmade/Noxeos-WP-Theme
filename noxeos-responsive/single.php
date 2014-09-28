@@ -33,7 +33,7 @@ add_action( 'post_thumbnail_html', 'noxeos_thumbnail_caption', null, 5 );
         <div class="text-center">
             <?php
                 
-                print get_the_post_thumbnail( 0, array( 140, 140 ), array( 'class' => 'img-circle' ) );
+                print get_the_post_thumbnail( get_the_ID(), array( 140, 140 ), array( 'class' => 'img-circle' ) );
                 
             ?>
         </div>
