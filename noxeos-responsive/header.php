@@ -107,10 +107,10 @@ if( isset( $_SERVER[ 'HTTP_USER_AGENT' ] ) && ( strpos( $_SERVER[ 'HTTP_USER_AGE
                     <div class="container">
                         <div class="carousel-caption">
                             <div class="hidden-xs">
-                                <?php print WordPressTools::getInstance()->getPageTitle() . chr( 10 ); ?>
+                                <h1><?php print WordPressTools::getInstance()->getPageTitle() . chr( 10 ); ?></h1>
                             </div>
                             <div class="visible-xs-block">
-                                <?php print WordPressTools::getInstance()->getPageTitle() . chr( 10 ); ?>
+                                <h1><?php print WordPressTools::getInstance()->getPageTitle() . chr( 10 ); ?></h1>
                             </div>
                         </div>
                     </div>
