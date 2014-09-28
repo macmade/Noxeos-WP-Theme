@@ -69,7 +69,7 @@ if( isset( $_SERVER[ 'HTTP_USER_AGENT' ] ) && ( strpos( $_SERVER[ 'HTTP_USER_AGE
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="/">
-                        <img src="/wp-content/themes/noxeos/css/image/xs-logo.png" width="120" height="40" alt="XS-Labs" />
+                        <img src="/wp-content/themes/noxeos-responsive/css/image/xs-logo.png" width="120" height="40" alt="XS-Labs" />
                     </a>
                 </div>
                 <div class="navbar-collapse collapse" id="navbar">
@@ -91,10 +91,10 @@ if( isset( $_SERVER[ 'HTTP_USER_AGENT' ] ) && ( strpos( $_SERVER[ 'HTTP_USER_AGE
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="https://twitter.com/macmade"><img src="/wp-content/themes/noxeos/css/image/xs-menu-bar-item-twitter.png" alt="Twitter" width="30" height="30" /></a></li>
-                        <li><a href="https://github.com/macmade"><img src="/wp-content/themes/noxeos/css/image/xs-menu-bar-item-github.png" alt="GitHub" width="30" height="30" /></a></li>
-                        <li><a href="http://stackoverflow.com/users/182676/macmade"><img src="/wp-content/themes/noxeos/css/image/xs-menu-bar-item-stackoverflow.png" alt="StackOverflow" width="30" height="30" /></a></li>
-                        <li><a href="http://www.linkedin.com/in/macmade/"><img src="/wp-content/themes/noxeos/css/image/xs-menu-bar-item-linkedin.png" alt="LinkedIn" width="30" height="30" /></a></li>
+                        <li><a href="https://twitter.com/macmade"><img src="/wp-content/themes/noxeos-responsive/css/image/xs-menu-bar-item-twitter.png" alt="Twitter" width="30" height="30" /></a></li>
+                        <li><a href="https://github.com/macmade"><img src="/wp-content/themes/noxeos-responsive/css/image/xs-menu-bar-item-github.png" alt="GitHub" width="30" height="30" /></a></li>
+                        <li><a href="http://stackoverflow.com/users/182676/macmade"><img src="/wp-content/themes/noxeos-responsive/css/image/xs-menu-bar-item-stackoverflow.png" alt="StackOverflow" width="30" height="30" /></a></li>
+                        <li><a href="http://www.linkedin.com/in/macmade/"><img src="/wp-content/themes/noxeos-responsive/css/image/xs-menu-bar-item-linkedin.png" alt="LinkedIn" width="30" height="30" /></a></li>
                     </ul>
                 </div>
             </div>
@@ -103,7 +103,7 @@ if( isset( $_SERVER[ 'HTTP_USER_AGENT' ] ) && ( strpos( $_SERVER[ 'HTTP_USER_AGE
             <ol class="carousel-indicators"></ol>
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="/wp-content/themes/noxeos/css/image/default.jpg" alt="XS-Labs">
+                    <img src="/wp-content/themes/noxeos-responsive/css/image/default.jpg" alt="XS-Labs">
                     <div class="container">
                         <div class="carousel-caption">
                             <div class="hidden-xs">
