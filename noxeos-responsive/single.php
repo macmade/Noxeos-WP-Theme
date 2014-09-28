@@ -30,28 +30,30 @@ add_action( 'post_thumbnail_html', 'noxeos_thumbnail_caption', null, 5 );
         </div>
     </div>
     <div class="col-md-4">
+        <div data-spy="affix" data-offset-top="0" data-offset-bottom="0">
         <dl class="dl-horizontal">
-            <dt>Author</dt>
-            <dd><?php the_author(); ?></dd>
-            <dt>Date</dt>
-            <dd><?php the_time( get_option( 'date_format' ) ); ?></dd>
-            <dt>Category</dt>
-            <dd><?php the_category( ', ' ); ?></dd>
-            <dt>Comments</dt>
-            <dd><?php comments_number( '0', '1', '%' ); ?></dd>
-        </dl>
-        <div>
-            <?php
+                <dt>Author</dt>
+                <dd><?php the_author(); ?></dd>
+                <dt>Date</dt>
+                <dd><?php the_time( get_option( 'date_format' ) ); ?></dd>
+                <dt>Category</dt>
+                <dd><?php the_category( ', ' ); ?></dd>
+                <dt>Comments</dt>
+                <dd><?php comments_number( '0', '1', '%' ); ?></dd>
+            </dl>
+            <div>
+                <?php
             
-                $image = get_the_post_thumbnail( $post->ID, 'large' );
-                preg_match( '/src="(.*)" class/', $image, $matches );
-                get_the_post_thumbnail();
+                    $image = get_the_post_thumbnail( $post->ID, 'large' );
+                    preg_match( '/src="(.*)" class/', $image, $matches );
+                    get_the_post_thumbnail();
             
-            ?>
-        </div>
-        <div>
-            <strong>Copyright &copy; Jean-David Gadina</strong><br />
-            This article is published under the terms of the <a href="http://www.xs-labs.com/en/licenses/freebsd-documentation/">FreeBSD Documentation License</a>.
+                ?>
+            </div>
+            <div>
+                <strong>Copyright &copy; Jean-David Gadina</strong><br />
+                This article is published under the terms of the <a href="http://www.xs-labs.com/en/licenses/freebsd-documentation/">FreeBSD Documentation License</a>.
+            </div>
         </div>
     </div>
 </div>
