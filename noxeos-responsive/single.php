@@ -20,7 +20,7 @@ add_action( 'post_thumbnail_html', 'noxeos_thumbnail_caption', null, 5 );
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 <div class="row">
-    <div class="col-md-10">
+    <div class="col-md-9">
         <h2><?php the_title(); ?></h2>
         <div class="tmpl-post-text">
             <?php the_content(); ?>
@@ -29,7 +29,7 @@ add_action( 'post_thumbnail_html', 'noxeos_thumbnail_caption', null, 5 );
             <?php comments_template( '', true ); ?>
         </div>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-3">
         <dl class="dl-horizontal">
             <dt>Author</dt>
             <dd><?php the_author(); ?></dd>
