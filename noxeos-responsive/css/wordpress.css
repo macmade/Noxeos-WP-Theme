@@ -19,4 +19,26 @@
     height:                     140px;
 }
 
+.xs-nav-bottom ul {
+    list-style:                 none;
+    margin:                     0px;
+    padding:                    0px;
+}
+
+.xs-nav-bottom h2 {
+    margin-top:                 0px;
+    margin-bottom:              10px;
+}
+
+.xs-nav-bottom li {
+    margin:                     0px;
+    padding:                    0px;
+}
+
+li.widget_archive li {
+    float:                      left;
+    margin-left:                10px;
+    width:                      150px;
+}
+
 /* ]]> */

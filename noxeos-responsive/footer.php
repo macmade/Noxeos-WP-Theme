@@ -1,13 +1,25 @@
         </div>
         <div class="row xs-nav-bottom">
             <div class="col-sm-4">
-                <?php get_sidebar( 'footer-col-1' ); ?>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <?php get_sidebar( 'footer-col-1' ); ?>
+                    </div>
+                </div>
             </div>
             <div class="col-sm-4">
-                <?php get_sidebar( 'footer-col-2' ); ?>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <?php get_sidebar( 'footer-col-2' ); ?>
+                    </div>
+                </div>
             </div>
             <div class="col-sm-4">
-                <?php get_sidebar( 'footer-col-3' ); ?>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <?php get_sidebar( 'footer-col-3' ); ?>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
