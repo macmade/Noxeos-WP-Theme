@@ -6,224 +6,215 @@
 #       Blood Sweat & Code (& Rock'N'Roll)       #
 #      Thanx for looking at the source code      #
 #                                                #
-#                 XS-Labs © 2013                 #
+#                XS-Labs (c) 2013                #
 #                                                #
 ##################################################
 */
 
-DIV#xs-site {
-    width:                  1100px;
-    min-height:             100%;
-    margin-left:            auto;
-    margin-right:           auto;
-    background-repeat:      repeat;
+.navbar {
+    opacity:                    0.95;
+    -moz-opacity:               0.95;
+    -webkit-opacity:            0.95;
+    white-space:                nowrap;
+    min-width:                  200px;
 }
 
-DIV#xs-page {
-    width:                  1060px;
-    padding-left:           20px;
-    padding-right:          20px;
-    background-image:       url( "image/xs-page-background.png" );
+.navbar .navbar-brand {
+    padding:                    0px;
+    margin-left:                0px;
+    margin-top:                 0px;
+    margin-right:               20px;
+    margin-bottom:              0px;
+    position:                   relative;
+    top:                        5px;
+    left:                       10px;
 }
 
-DIV#xs-menu-bar {
-    height:                 80px;
-    padding-left:           30px;
-    padding-right:          30px;
-    overflow:               hidden;
+.navbar-right {
+    padding-right:              20px;
 }
 
-DIV#xs-menu-bar UL {
-    overflow:               hidden;
-    height:                 80px;
-    list-style:             none;
-    margin:                 0px;
-    padding:                0px;
-    padding-left:           10px;
-    background-image:       url( "image/xs-menu-bar.png" );
-    background-repeat:      no-repeat;
+.navbar-right li {
+    float:                      left;
 }
 
-DIV#xs-menu-bar UL LI {
-    float:                  left;
-    margin:                 0px;
-    padding:                0px;
-    width:                  140px;
-    height:                 80px;
+.navbar-right li a {
+    padding-left:               10px;
+    padding-top:                10px;
+    padding-right:              0px;
+    padding-bottom:             0px;
 }
 
-DIV#xs-menu-bar UL LI DIV {
-    display:                block;
-    width:                  140px;
-    height:                 80px;
-    text-align:             center;
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height:                 400px;
 }
 
-DIV#xs-menu-bar UL LI A {
-    font-size:              20px;
-    color:                  #B8BCC4;
-    text-decoration:        none;
-    height:                 100%;
-    text-shadow:            1px 1px 1px #FFFFFF;
+.footer {
+    position:                   absolute;
+    bottom:                     0;
+    width:                      100%;
+    min-height:                 40px;
+    background-color:           #F8F8F8;
+    border-top:                 solid 1px #E7E7E7;
+    padding-top:                10px;
 }
 
-DIV#xs-menu-bar UL LI .xs-menu-item {
-    background-image:       url( "image/xs-menu-bar-item.png" );
+.panel img.pull-left {
+    margin-left:                0px;
+    margin-top:                 0px;
+    margin-right:               10px;
+    margin-bottom:              0px;
 }
 
-DIV#xs-menu-bar UL LI .xs-menu-item-first {
-    background-image:       url( "image/xs-menu-bar-item-first.png" );
+.panel img.pull-right {
+    margin-left:                10px;
+    margin-top:                 0px;
+    margin-right:               0px;
+    margin-bottom:              0px;
 }
 
-DIV#xs-menu-bar UL LI.xs-menu-act .xs-menu-item {
-    background-image:       url( "image/xs-menu-bar-item-act.png" );
+.panel-heading {
+    padding:                    2px;
+    padding-left:               10px;
 }
 
-DIV#xs-menu-bar UL LI.xs-menu-act A {
-    color:                  #8F96A3;
-    font-weight:            bold;
+.panel-heading h1, .panel-heading h2, .panel-heading h3, .panel-heading h4, .panel-heading h5, .panel-heading h6 {
+    font-size:                  15px;
+    margin:                     0px;
+    border:                     none;
+    padding-top:                10px;
+    padding-bottom:             8px;
 }
 
-DIV#xs-menu-bar UL LI A:hover {
-    color:                  #8F96A3;
+.panel-heading h1 a, .panel-heading h2 a, .panel-heading h3 a, .panel-heading h4 a, .panel-heading h5 a, .panel-heading h6 a {
+    color:                      #5E5E5E;
 }
 
-DIV#xs-menu-bar UL LI .xs-menu-item-first {
-    padding-top:            17px;
+.xs-page-header .carousel-inner {
+    margin-bottom:              20px;
 }
 
-DIV#xs-menu-bar UL LI .xs-menu-item {
-    padding-top:            28px;
+.xs-page-header .carousel-inner .item {
+    height:                     250px;
+    max-height:                 250px;
+    background-color:           #F8F8F8;
+    border-bottom:              solid 1px #E7E7E7;
 }
 
-DIV#xs-menu-bar UL LI.xs-menu-act .xs-menu-item {
-    padding-top:            32px;
+.xs-page-header .carousel-inner img {
+    top:                        -150px;
+    min-width:                  610px;
+    position:                   relative;
 }
 
-DIV#xs-menu-bar UL LI .xs-menu-item-last {
-    padding-left:           5px;
-    padding-top:            22px;
+.xs-page-header .carousel-caption {
+    top:                        50px;
+    left:                       0px;
+    width:                      100%;
 }
 
-DIV#xs-highlight {
-    height:                 200px;
-    padding-left:           30px;
-    padding-right:          30px;
-    overflow:               hidden;
+.xs-page-header .carousel-caption .hidden-xs h1 {
+    text-align:                 center;
+    font-size:                  80px;
+    font-weight:                500;
+    white-space:                nowrap;
+    width:                      100%;
+    padding-left:               20px;
+    padding-right:              20px;
 }
 
-DIV#xs-sub-nav {
-    height:                 40px;
-    overflow:               hidden;
-    padding-top:            10px;
-    padding-left:           30px;
-    padding-right:          30px;
+.xs-page-header .carousel-caption .visible-xs-block h1 {
+    text-align:                 center;
+    font-size:                  30px;
+    font-weight:                500;
+    width:                      100%;
+    padding-left:               20px;
+    padding-right:              20px;
 }
 
-DIV#xs-sub-nav .left {
-    width:                  500px;
+.xs-page-header .carousel-caption h1 a {
+    text-decoration:            none;
+    color:                      #FFFFFF;
 }
 
-DIV#xs-sub-nav H1,
-DIV#xs-sub-nav H2,
-DIV#xs-sub-nav H1 A,
-DIV#xs-sub-nav H2 A {
-    padding:                0px;
-    margin:                 0px;
-    color:                  #C3C6CD;
-    font-size:              30px;
+.xs-page-sub-header {
+    margin-bottom:              20px;
 }
 
-DIV#xs-sub-nav UL {
-    overflow:               hidden;
-    height:                 100%;
-    list-style:             none;
-    margin:                 0px;
-    padding:                0px;
-    padding-top:            10px;
+.xs-page-sub-header h2 {
+    padding:                    0px;
+    margin:                     0px;
 }
 
-DIV#xs-sub-nav UL LI {
-    float:                  left;
-    margin:                 0px;
-    padding:                0px;
-    margin-left:            20px;
-    font-size:              20px;
+.xs-page-sub-header div {
+    overflow:                   hidden;
+    height:                     100%;
 }
 
-DIV#xs-sub-nav UL LI A {
-    color:                  #C3C6CD;
+.xs-page-sub-header ul {
+    overflow:                   hidden;
+    height:                     100%;
+    list-style:                 none;
+    margin-left:                10px;
+    margin-top:                 0px;
+    margin-right:               0px;
+    margin-bottom:              0px;
+    padding:                    0px;
+    border-left:                solid 5px #E7E7E7;
 }
 
-DIV#xs-sub-nav UL LI.xs-menu-act A {
-    font-weight:            bold;
-    color:                  #5C6370;
+.xs-page-sub-header li {
+    float:                      left;
+    margin-left:                10px;
+    margin-top:                 5px;
+    margin-right:               0px;
+    margin-bottom:              5px;
+    padding:                    0px;
 }
 
-DIV.xs-content-frame-top {
-    height:                 10px;
-    padding-left:           30px;
-    padding-right:          30px;
-    background-image:       url( "image/xs-content-frame-top.png" );
-    background-repeat:      no-repeat;
-    background-color:       #F7F7F8;
+.xs-page-sub-header li a {
+    color:                      #999999;
+    font-size:                  15px;
 }
 
-DIV.xs-content-frame-middle {
-    padding-left:           50px;
-    padding-right:          50px;
-    background-color:       #EEEEEE;
-    background-image:       url( "image/xs-content-frame-middle.png" );
-    background-repeat:      repeat-y;
-    background-color:       #F7F7F8;
-    padding-left:           30px;
-    padding-right:          30px;
-    padding-bottom:         30px;
-    height:                 100%;
+.xs-page-sub-header .active a {
+    color:                      #666666;
+    font-weight:                500;
 }
 
-DIV.xs-content-frame-bottom {
-    height:                 10px;
-    padding-left:           30px;
-    padding-right:          30px;
-    background-image:       url( "image/xs-content-frame-bottom.png" );
-    background-repeat:      no-repeat;
-    background-color:       #F7F7F8;
+.xs-content {
+    clear:                      both;
+    margin-bottom:              20px;
 }
 
-DIV#xs-footer {
-    margin-bottom:          20px;
-    height:                 60px;
-    padding-left:           50px;
-    padding-right:          50px;
-    overflow:               hidden;
-    font-size:              12px;
-    padding-top:            10px;
-    background-image:       url( "image/xs-page-bottom.png" );
-    background-repeat:      no-repeat;
+.breadcrumb .active a {
+    color:                      #999999;
 }
 
-DIV#xs-footer .left {
-    width:                  500px;
+.marketing {
+    text-align:                 center;
 }
 
-DIV#xs-footer UL {
-    overflow:               hidden;
-    height:                 100%;
-    list-style:             none;
-    margin:                 0px;
-    padding:                0px;
+.marketing .row {
+    margin-bottom:              20px;
 }
 
-DIV#xs-footer UL LI {
-    float:                  left;
-    margin:                 0px;
-    padding:                0px;
-    margin-left:            20px;
+.marketing h3 {
+    border:                     none;
+    padding:                    0px;
+    font-weight:                400;
 }
 
-DIV#xs-footer A {
-    color:                  #5C6370;
+.marketing a {
+    color:                      #333333;
+}
+
+.marketing h3 a {
+    font-weight:                400;
+}
+
+.marketing p {
+    color:                      #999999;
 }
 
 /* ]]> */

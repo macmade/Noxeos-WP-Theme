@@ -1,31 +1,49 @@
 <?php
 
 require_once( dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'classes' . DIRECTORY_SEPARATOR . 'WordPressTools.class.php' );
-print '<?xml version="1.0" encoding="utf-8"?>' . chr( 10 );
 
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<?php
+if( isset( $_SERVER[ 'HTTP_USER_AGENT' ] ) && ( strpos( $_SERVER[ 'HTTP_USER_AGENT' ], 'MSIE' ) !== false ) )
+{
+    header( 'X-UA-Compatible: IE=edge' );
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!--
+
+    ##################################################
+    #                                                #
+    #       Blood Sweat & Code (& Rock'N'Roll)       #
+    #      Thanx for looking at the source code      #
+    #                                                #
+    #                 XS-Labs © 2013                 #
+    #                                                #
+    ##################################################
+
+    -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title><?php print WordPressTools::getInstance()->getPageTitle(); ?></title>
-    <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-    <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/noxeos/css/jquery.fancybox-1.3.1.css" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-    <script src="/wp-content/themes/noxeos/js/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/wp-content/themes/noxeos/js/jquery.easing-1.3.pack.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/wp-content/themes/noxeos/js/jquery.mousewheel-3.0.2.pack.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/wp-content/themes/noxeos/js/jquery.fancybox-1.3.1.pack.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript" charset="utf-8">
-        // <![CDATA[    
-        $( document ).ready
-        (
-            function ()
-            {
-                $( 'a.fancybox' ).fancybox( { 'titleShow' : false } );
-            }
-        );
+    <meta name="author" content="XS-Labs" />
+    <meta name="rating" content="General" />
+    <meta name="robots" content="all" />
+    <meta name="generator" content="BBEdit 10.5" />
+    <!--[if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif]-->
+    <link rel="icon" href="/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/favicon-apple-touch.png">
+    <script type="text/javascript">
+        // <![CDATA[
+        
+        if( ( ( window.devicePixelRatio === undefined ) ? 1 : window.devicePixelRatio ) > 1 )
+        {
+            document.cookie = 'X_XSLABS_CLIENT_IS_RETINA=1;path=/';
+        }
+        
         // ]]>
     </script>
     <?php
@@ -40,42 +58,65 @@ print '<?xml version="1.0" encoding="utf-8"?>' . chr( 10 );
     ?>
 </head>
 <body>
-    <div id="xs-site">
-        <div id="xs-page">
-            <div id="xs-menu-bar">
-                <ul>
-                    <li>
-                        <div class="xs-menu-item-first">
-                            <a href="http://www.xs-labs.com/"><img src="/wp-content/themes/noxeos/css/image/xs-menu-bar-item-logo.png" alt="XS-Labs" width="100" height="40" /></a>
-                        </div>
-                    </li>
-                    <li><div class="xs-menu-item"><a href="http://www.xs-labs.com/en/projects/" title="Projects">Projects</a></div></li>
-                    <li><div class="xs-menu-item"><a href="http://www.xs-labs.com/en/about/" title="About">About</a></div></li>
-                    <li><div class="xs-menu-item"><a href="http://www.xs-labs.com/en/contact/" title="Contact">Contact</a></div></li>
-                    <li><div class="xs-menu-item"><a href="http://www.xs-labs.com/en/archives/" title="Archives">Archives</a></div></li>
-                    <li class="xs-menu-act"><div class="xs-menu-item"><a href="/" title="Blog">Blog</a></div></li>
-                    <li>
-                        <div class="xs-menu-item-last">
-                            <a href="http://www.linkedin.com/in/macmade/"><img src="/wp-content/themes/noxeos/css/image/xs-menu-bar-item-linkedin.png" alt="LinkedIn" width="30" height="30" /></a>
-                            <a href="https://twitter.com/macmade"><img src="/wp-content/themes/noxeos/css/image/xs-menu-bar-item-twitter.png" alt="Twitter" width="30" height="30" /></a>
-                            <a href="http://stackoverflow.com/users/182676/macmade"><img src="/wp-content/themes/noxeos/css/image/xs-menu-bar-item-stackoverflow.png" alt="StackOverflow" width="30" height="30" /></a>
-                            <a href="https://github.com/macmade"><img src="/wp-content/themes/noxeos/css/image/xs-menu-bar-item-github.png" alt="GitHub" width="30" height="30" /></a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div id="xs-highlight">
-                <img width="1000" height="200" src="/wp-content/themes/noxeos/css/image/default.png" alt="" />
-            </div>
-            <div id="xs-sub-nav">
-                <div class="left">
-                    <h1><a href="<?php print home_url( '/' ); ?>"><?php print WordPressTools::getInstance()->getPageTitle(); ?></a></h1>
+    <div class="xs-page-header">
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        <img src="/wp-content/themes/noxeos/css/image/xs-logo.png" width="120" height="40" alt="XS-Labs" />
+                    </a>
                 </div>
-                <div class="right">
-                    
+                <div class="navbar-collapse collapse" id="navbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="http://www.xs-labs.com/en/projects/">Projects</a>
+                        </li>
+                        <li>
+                            <a href="http://www.xs-labs.com/en/about/">About</a>
+                        </li>
+                        <li>
+                            <a href="http://www.xs-labs.com/en/contact/">Contact</a>
+                        </li>
+                        <li>
+                            <a href="http://www.xs-labs.com/en/archives/">Archives</a>
+                        </li>
+                        <li class="active">
+                            <a href="http://www.noxeos.com/">Blog</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="https://twitter.com/macmade"><img src="/wp-content/themes/noxeos/css/image/xs-menu-bar-item-twitter.png" alt="Twitter" width="30" height="30" /></a></li>
+                        <li><a href="https://github.com/macmade"><img src="/wp-content/themes/noxeos/css/image/xs-menu-bar-item-github.png" alt="GitHub" width="30" height="30" /></a></li>
+                        <li><a href="http://stackoverflow.com/users/182676/macmade"><img src="/wp-content/themes/noxeos/css/image/xs-menu-bar-item-stackoverflow.png" alt="StackOverflow" width="30" height="30" /></a></li>
+                        <li><a href="http://www.linkedin.com/in/macmade/"><img src="/wp-content/themes/noxeos/css/image/xs-menu-bar-item-linkedin.png" alt="LinkedIn" width="30" height="30" /></a></li>
+                    </ul>
                 </div>
             </div>
-            <div id="xs-content">
-                <div class="xs-content-frame">
-                    <div class="xs-content-frame-top">&nbsp;</div>
-                    <div class="xs-content-frame-middle">
+        </div>    
+        <div class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators"></ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="/wp-content/themes/noxeos/css/image/default.jpg" alt="XS-Labs">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <div class="hidden-xs">
+                                <?php print WordPressTools::getInstance()->getPageTitle() . chr( 10 ); ?>
+                            </div>
+                            <div class="visible-xs-block">
+                                <?php print WordPressTools::getInstance()->getPageTitle() . chr( 10 ); ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="xs-content">

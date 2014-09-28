@@ -7,7 +7,4 @@ Version: 1.0
 Tags: 
 */
 
-@import url( 'css/base.css' );
-@import url( 'css/layout.css' );
-@import url( 'css/styles.css' );
-@import url( 'css/wordpress.css' );
+@import url( 'css/xs-labs.css' );

@@ -6,132 +6,164 @@
 #       Blood Sweat & Code (& Rock'N'Roll)       #
 #      Thanx for looking at the source code      #
 #                                                #
-#                 XS-Labs © 2013                 #
+#                XS-Labs (c) 2013                #
 #                                                #
 ##################################################
 */
 
-
-IMG.alignright {
-    float:                  right;
-    margin-left:            10px;
-    margin-top:             10px;
-    margin-bottom:          10px;
-}
-
-IMG.alignleft {
-    float:                  left;
-    margin-right:           10px;
-    margin-top:             10px;
-    margin-bottom:          10px;
-}
-
-.hidden {
-    display:                none;
-}
-
-.left {
-    float:                  left;
-}
-
-.right {
-    float:                  right;
-}
-
 .clearer {
     clear:                  both;
-}
-
-.center {
-    text-align:             center;
 }
 
 .power {
     vertical-align:         super;
 }
 
-.uppercase {
-    text-transform:         uppercase;
+#imagelightbox {
+    position:               fixed;
+    z-index:                9999;
+    -ms-touch-action:       none;
+    touch-action:           none;
 }
 
-.small {
-    font-size:              12px;
+.xs-github-repository-commits .panel-heading {
+    font-size:              10px;
+    overflow:               hidden;
+    height:                 100%;
+    padding:                10px;
 }
 
-.italic {
-    font-style:             italic;
-}
-
-.big {
-    font-size:              18px;
-}
-
-IMG.img-right {
-    float:                  right;
-    margin-left:            10px;
-    margin-bottom:          10px;
-}
-
-IMG.img-left {
+.xs-github-repository-commits .panel-heading .xs-github-repository-commit-author-image {
     float:                  left;
+    margin-right:           10px;
+    border:                 solid 1px #E7E7E7;
+}
+
+ul.xs-status-items {
+    overflow:               hidden;
+    height:                 100%;
     margin-left:            10px;
+    margin-top:             10px;
+    margin-right:           0px;
+    margin-bottom:          0px;
+    padding:                0px;
+    list-style:             none;
+}
+
+ul.xs-status-items-description {
+    margin-left:            10px;
+    margin-top:             0px;
+    margin-right:           0px;
+    margin-bottom:          10px;
+    padding:                0px;
+    list-style:             none;
+}
+
+ul.xs-status-items-description li {
+    margin:                 5px;
+    font-size:              12px;
+}
+
+ul.xs-status-items li {
+    float:                  left;
+    width:                  150px;
+    margin:                 5px;
+    font-size:              12px;
+}
+
+ul.xs-status-items-description li.xs-status-item-off,
+ul.xs-status-items li.xs-status-item-off {
+    background-image:       url( "image/xs-status-off.png" );
+    background-size:        22px;
+    background-repeat:      no-repeat;
+    padding-left:           28px;
+    padding-top:            4px;
+    padding-bottom:         2px;
+}
+
+ul.xs-status-items-description li.xs-status-item-dev,
+ul.xs-status-items li.xs-status-item-dev {
+    background-image:       url( "image/xs-status-dev.png" );
+    background-size:        22px;
+    background-repeat:      no-repeat;
+    padding-left:           28px;
+    padding-top:            4px;
+    padding-bottom:         2px;
+}
+
+ul.xs-status-items-description li.xs-status-item-ok,
+ul.xs-status-items li.xs-status-item-ok {
+    background-image:       url( "image/xs-status-ok.png" );
+    background-size:        22px;
+    background-repeat:      no-repeat;
+    padding-left:           28px;
+    padding-top:            4px;
+    padding-bottom:         2px;
+}
+
+.resume-menu {
+    font-size:              12px;
+    white-space:            nowrap;
+}
+
+.resume-menu ul {
+    margin:                 0px;
+    padding:                0px;
+    list-style:             none;
+}
+
+.resume-menu ul ul {
+    margin-left:            20px;
+}
+
+.resume-menu li {
+    margin:                 0px;
+    padding:                0px;
+}
+
+dl.dl-horizontal dd {
     margin-bottom:          10px;
 }
 
-DIV.code {
-    color:                  #BFBFBF;
-    background-color:       #1D2327;
-    font-size:              12px;
-    line-height:            12px;
-    overflow:               auto;
-    padding:                15px;
-    border-radius:          20px;
+dl.dl-horizontal dt {
+    margin-bottom:          10px;
+    padding-bottom:         2px;
+    border-bottom:          solid 1px #E7E7E7;
 }
 
-.source {
-    white-space:            pre;
+dl.dl-horizontal ul {
+    margin-left:            10px;
+    margin-top:             0px;
+    margin-right:           0px;
+    margin-bottom:          0px;
+    padding:                0px;
 }
 
-.code-comment {
-    color:                  #7F7F7F;
-    background-color:       inherit;
+.xs-museum .panel-body dl.dl-horizontal dd {
+    margin-top:             0px;
+    margin-bottom:          0px;
+    padding-top:            0px;
+    padding-bottom:         0px;
 }
 
-.code-inline {
-    color:                  #7F7F7F;
-    background-color:       inherit;
-    font-family:            monospace;
+.xs-museum .panel-body dl.dl-horizontal dt {
+    margin-top:             0px;
+    margin-bottom:          0px;
+    padding-top:            3px;
+    padding-bottom:         0px;
+    font-size:              10px;
 }
 
-.code-keyword {
-    color:                  #678CB1;
-    background-color:       inherit;
+.xs-museum-photo {
+    font-size:              10px;
+    text-align:             center;
+    margin-bottom:          20px;
 }
 
-.code-pre {
-    color:                  #AE6DA6;
-    background-color:       inherit;
-}
-
-.code-num {
-    color:                  #6C884C;
-    background-color:       inherit;
-}
-
-.code-predefined {
-    color:                  #6FAFAF;
-    background-color:       inherit;
-}
-
-.code-string {
-    color:                  #B37D49;
-    background-color:       inherit;
-    font-style:             italic;
-}
-
-.code-ctag {
-    color:                  #A082BD;
-    background-color:       inherit;
+#imagelightbox {
+    border:                 solid 1px #999999;
+    padding:                10px;
+    background-color:       #FFFFFF;
 }
 
 /* ]]> */
