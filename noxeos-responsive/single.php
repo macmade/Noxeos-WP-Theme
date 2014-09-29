@@ -1,21 +1,3 @@
-<?php
-
-function noxeos_thumbnail_caption( $html, $post_id, $post_thumbnail_id, $size, $attr )
-{
-    $attachment =& get_post( $post_thumbnail_id );
-
-    if( $attachment->post_excerpt )
-    {
-        $html .= '<div class="tmpl-post-image-caption">' . $attachment->post_excerpt . '</div>';
-    }
-
-    return $html;
-}
-
-add_action( 'post_thumbnail_html', 'noxeos_thumbnail_caption', null, 5 );
-
-?>
-
 <?php get_header(); ?>
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
@@ -39,16 +21,38 @@ add_action( 'post_thumbnail_html', 'noxeos_thumbnail_caption', null, 5 );
         </div>
         <div class="panel panel-default">
             <div class="panel-body">
-                <dl class="dl-horizontal">
-                    <dt>Author</dt>
-                    <dd><?php the_author(); ?></dd>
-                    <dt>Date</dt>
-                    <dd><?php the_time( get_option( 'date_format' ) ); ?></dd>
-                    <dt>Category</dt>
-                    <dd><?php the_category( ', ' ); ?></dd>
-                    <dt>Comments</dt>
-                    <dd><?php comments_number( '0', '1', '%' ); ?></dd>
-                </dl>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <strong>Author</strong>
+                    </div>
+                    <div class="col-xs-8">
+                        <?php the_author(); ?>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <strong>Date</strong>
+                    </div>
+                    <div class="col-xs-8">
+                        <?php the_time( get_option( 'date_format' ) ); ?>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <strong>Category</strong>
+                    </div>
+                    <div class="col-xs-8">
+                        <?php the_category( ', ' ); ?>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <strong>Comments</strong>
+                    </div>
+                    <div class="col-xs-8">
+                        <?php comments_number( '0', '1', '%' ); ?>
+                    </div>
+                </div>
             </div>
         </div>
         <div>

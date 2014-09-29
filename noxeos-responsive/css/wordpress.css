@@ -45,16 +45,9 @@ li.widget_archive li {
     margin-bottom:              20px;
 }
 
-.xs-post-details .panel-body dl {
+
+.xs-post-details .panel-body {
     font-size:                  12px;
-}
-
-.xs-post-details .panel-body dl.dl-horizontal dt {
-    width:                      80px;
-}
-
-.xs-post-details .panel-body dl.dl-horizontal dd {
-    margin-left:                110px;
 }
 
 /* ]]> */
