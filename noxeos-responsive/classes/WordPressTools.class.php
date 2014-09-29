@@ -31,11 +31,6 @@ final class WordPressTools
         $name        = get_bloginfo( 'name' );
         $description = get_bloginfo( 'description' );
         
-        //if( $description && ( is_home() || is_front_page() ) )
-        //{
-        //    $name .= ' | ' . $description;
-        //}
-        
         if ( $GLOBALS[ 'paged' ] >= 2 || $GLOBALS[ 'page' ] >= 2 )
         {
             $name .= ' | Page ' . max( $paged, $page );
@@ -52,16 +47,26 @@ final class WordPressTools
         }
         
         $html = <<<HTML
-<div class="tmpl-comment tmpl-comment-user-%s">
-    <div class="tmpl-comment-infos">
-        <div class="tmpl-comment-author">
-            Author: %s
+<div class="xs-comment-user-%s panel panel-default">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col-sm-3">
+                Author
+            </div>
+            <div class="col-sm-9">
+                %s
+            </div>
         </div>
-        <div class="tmpl-comment-date">
-            Date: %s
+        <div class="row">
+            <div class="col-sm-3">
+                Date
+            </div>
+            <div class="col-sm-9">
+                %s
+            </div>
         </div>
     </div>
-    <div class="tmpl-comment-text">
+    <div class="panel-body">
         %s
     </div>
 HTML;
