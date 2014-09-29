@@ -48,9 +48,11 @@ final class WordPressTools
         
         $html = <<<HTML
 <div class="xs-comment-user-%s">
-    <div class="text-right">
-        <strong>Author</strong>: %s<br />
-        <strong>Date</strong>: %s
+    <div>
+        <small>
+            <strong>Author</strong>: %s<br />
+            <strong>Date</strong>: %s
+        </small>
     </div>
     <div class="panel panel-default">
         <div class="panel-body">
