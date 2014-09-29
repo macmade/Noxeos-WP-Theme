@@ -50,10 +50,22 @@ final class WordPressTools
 <div class="xs-comment-user-%s">
     <div class="panel panel-default">
         <div class="panel-heading">
-            <small>
-                <strong>Author</strong>: %s<br />
-                <strong>Date</strong>: %s
-            </small>
+            <div class="row">
+                <div class="col-sm-2">
+                    <small>Author</small>
+                </div>
+                <div class="col-sm-2">
+                    <small>%s</small>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2">
+                    <small>Date</small>
+                </div>
+                <div class="col-sm-2">
+                    <small>%s</small>
+                </div>
+            </div>
         </div>
         <div class="panel-body">
             %s
