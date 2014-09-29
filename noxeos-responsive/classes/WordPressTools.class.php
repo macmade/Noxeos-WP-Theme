@@ -48,21 +48,21 @@ final class WordPressTools
         
         $html = <<<HTML
 <div class="xs-comment-user-%s">
+    <div class="text-right">
+        <strong>Author</strong>: %s<br />
+        <strong>Date</strong>: %s
+    </div>
     <div class="panel panel-default">
         <div class="panel-body">
             %s
         </div>
-    </div>
-    <div class="text-right">
-        <strong>Author</strong>: %s<br />
-        <strong>Date</strong>: %s
     </div>
 HTML;
         
         $time = strtotime( $comment->comment_date );
         $date = date( get_option( 'date_format' ), $time );
         
-        printf( $html, $comment->user_id, nl2br( htmlspecialchars( $comment->comment_content ) ), $comment->comment_author, $date );
+        printf( $html, $comment->user_id, $comment->comment_author, $date, nl2br( htmlspecialchars( $comment->comment_content ) ) );
     }
     
     public function displayEndComment( stdClass $comment )
