@@ -51,18 +51,18 @@ final class WordPressTools
     <div class="panel panel-default">
         <div class="panel-heading">
             <div class="row">
-                <div class="col-sm-2">
+                <div class="col-sm-1">
                     <small><strong>Author</strong></small>
                 </div>
-                <div class="col-sm-10">
+                <div class="col-sm-11">
                     <small>%s</small>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-2">
+                <div class="col-sm-1">
                     <small><strong>Date</strong></small>
                 </div>
-                <div class="col-sm-10">
+                <div class="col-sm-11">
                     <small>%s</small>
                 </div>
             </div>
