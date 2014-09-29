@@ -64,13 +64,6 @@
         (
             function()
             {
-                $( 'div.code-block' ).each
-                (
-                    function( i, block )
-                    {
-                        hljs.highlightBlock( block );
-                    }
-                );
                 $( 'pre.code-block' ).each
                 (
                     function( i, block )
