@@ -52,17 +52,17 @@ final class WordPressTools
         <div class="panel-heading">
             <div class="row">
                 <div class="col-sm-2">
-                    <small>Author</small>
+                    <small><strong>Author</strong></small>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-10">
                     <small>%s</small>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-2">
-                    <small>Date</small>
+                    <small><strong>Date</strong></small>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-10">
                     <small>%s</small>
                 </div>
             </div>
