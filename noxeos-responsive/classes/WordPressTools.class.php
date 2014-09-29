@@ -47,27 +47,17 @@ final class WordPressTools
         }
         
         $html = <<<HTML
-<div class="xs-comment-user-%s panel panel-default">
-    <div class="panel-heading">
-        <div class="row">
-            <div class="col-sm-3">
-                Author
-            </div>
-            <div class="col-sm-9">
-                %s
-            </div>
+<div class="xs-comment-user-%s">
+    <dl class="dl-horizontal">
+        <dt>Author</dt>
+        <dd>%s</dd>
+        <dt>Date</dt>
+        <dd>%s</dd>
+    </dl>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            %s
         </div>
-        <div class="row">
-            <div class="col-sm-3">
-                Date
-            </div>
-            <div class="col-sm-9">
-                %s
-            </div>
-        </div>
-    </div>
-    <div class="panel-body">
-        %s
     </div>
 HTML;
         
