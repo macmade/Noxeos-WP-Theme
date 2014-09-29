@@ -1,7 +1,13 @@
 <?php if( post_password_required() ) : ?>
 
+<div class="alert alert-warning text-center">
+    <div>
+        <strong>This article is protected.</strong><br />
+        Please enter your password.
+    </div>
+</div>
+
 <p>
-    This article is protected. Please enter your password.
 </p>
 
 <?php return; endif; ?>
@@ -10,7 +16,7 @@
 
 <a name="comments"></a>
 <h3><?php printf( ( get_comments_number() > 1 ) ? '%s comments to &laquo;%s&raquo;' : '%s comment to &laquo;%s&raquo;' , number_format_i18n( get_comments_number() ), get_the_title() ); ?></h3>
-<div class="tmpl-comments-list">
+<div>
     <?php
         wp_list_comments
         (
@@ -26,9 +32,11 @@
 
 <?php else : if( !comments_open() ) : ?>
 
-<p>
-    Comments are closed
-</p>
+<div class="alert alert-warning text-center">
+    <div>
+        <strong>Comments are closed</strong><br />
+    </div>
+</div>
 
 <?php endif; ?>
 <?php endif; ?>
